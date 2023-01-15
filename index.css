@@ -1,0 +1,92 @@
+html{
+    background: grey;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 375px;
+    margin: auto auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    background: #FFFFFF;
+    border-bottom: 2px solid #C6C6C6;
+
+    
+}
+.logo{
+    width:127px;
+    height:33.02px;
+}
+.avatar{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+}
+.user{
+    display: flex;  
+    margin: 10px 5px;
+    column-gap: 10px;
+}
+.user h1{
+    margin: 0;
+    font-family: Source Sans Pro;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#user-loc{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+.user img{
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    left: 10px; 
+}
+.user-info{
+    padding: 3px;
+}
+.post{
+    height: 375px;
+    margin-bottom: 10px;
+    width: 375px;
+    
+    
+}
+.post-container{
+    width: 375px;
+    margin: 0px auto;
+    border-bottom: 2px solid #C6C6C6;
+
+}
+.icon{
+    margin-left: 10px;
+    height: 22px;
+    width: 23px;
+    cursor: pointer;
+    
+}
+p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 10px;
+}
+span{
+    font-weight: 400;
+}
